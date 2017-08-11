@@ -1,0 +1,1 @@
+INSERT INTO Przydzial VALUES (1, 1),(2, 2),(3, 3),(4, 2),(5, 3),(6, 3),(6, 4)

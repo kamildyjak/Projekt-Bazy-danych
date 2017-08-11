@@ -1,0 +1,9 @@
+CREATE TRIGGER TR_WezwanieInsert ON Wezwanie
+AFTER INSERT
+AS
+BEGIN
+	DECLARE @WezwanieID INT
+	SELECT @WezwanieID = Id FROM INSERTED
+	INSERT INTO Koszty VALUES(@WezwanieID, 0)
+END
+GO

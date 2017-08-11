@@ -1,0 +1,1 @@
+INSERT INTO PrzeprowadzonyZabieg VALUES (1, 1, 1), (1, 2, 1), (2, 4, 2), (3, 4, 2), (4, 1, 2), (5, 2, 1), (6, 5, 1), (7, 7, 1)

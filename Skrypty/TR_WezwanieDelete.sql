@@ -1,0 +1,9 @@
+CREATE TRIGGER TR_WezwanieDelete ON Wezwanie
+AFTER DELETE
+AS
+BEGIN
+	DECLARE @WezwanieID INT
+	SELECT @WezwanieID = Id FROM DELETED
+	DELETE FROM Koszty WHERE Id_wezwania = @WezwanieID
+END
+GO

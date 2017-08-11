@@ -1,0 +1,4 @@
+CREATE VIEW DodajZabieg
+AS
+	SELECT * FROM Zabieg
+GO 
