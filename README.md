@@ -15,3 +15,5 @@ Baza danych przechowuje informacje o:
 
 Dzięki temu możliwe jest uzyskanie m.in. informacji o tym, które zespoły brały udział przy wezwaniu. Umożliwia to
 również zaprezentowanie zestawienia zabiegów, które zostały przeprowadzone na pacjencie podczas interwencji.
+
+![](https://github.com/kamildyjak/Projekt-Bazy-danych/blob/master/schema.png)
